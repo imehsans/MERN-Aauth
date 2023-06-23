@@ -1,7 +1,11 @@
+import Header from "./components/Header"
+import HomeScreens from "./screens/HomeScreens"
+
 const App = () => {
   return (
     <>
-      <h1>MY APP</h1>
+      <Header />
+      <HomeScreens />
     </>
   )
 }
